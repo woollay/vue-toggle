@@ -40,16 +40,21 @@ https://github.com/woollay/vue-toggle-switch
 
 | Name            | Type              | Required     | Sample     | Description                        |
 | ---             | ---               | ---          | ---         | ---                                |
-| resultData      | JSON              | Yes          | [{id: "234",status: false,on: "ON",off: "OFF"}]  | id:id of toggle-switch;on/off status of toggle-switch; on:the text of on status in toggle-switch;off:the text of off status in toggle-switch|
+| resultData      | JSON              | Yes          | [{id: "234",status: false,on: "ON",off: "OFF"}]  | id:id of toggle-switch;<br/>on/off status of toggle-switch; <br/>on:the text of on status in toggle-switch;<br/>off:the text of off status in toggle-switch|
 | curStyle        | JSON              | No           | { switch_on: "red" }  | customization style of toggle-switch|
-| changeSwitch    | function          | Yes          | the parameter of callback function:{ id: "123",checked:false }  | when the status of toggle-switch bean changed,it will be call|
+
 
 
 ### Events
 
 | Name   | Description              |
 | ---    | ---                      |
-| changeSwitch | Triggered on toggle, user selects switch option, returns current value. used in component,like:@changeSwitch="change",the callback function as following:function change(result) {console.log("option changed:" + result.id + "," + result.checked);} |
+| changeSwitch | Triggered on toggle, user selects switch option, returns current value. used in component,like:<br/>@changeSwitch="change",<br/>the callback function as following:<br/>
+```javascript 
+function change(result) {
+	console.log("option changed:" + result.id + "," + result.checked);
+} 
+```|
 
 ## LICENSE
 MIT
