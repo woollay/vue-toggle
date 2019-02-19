@@ -54,7 +54,9 @@ https://github.com/woollay/vue-toggle-switch
 function change(result) {
 	console.log("option changed:" + result.id + "," + result.checked);
 } 
-```|
+```   |
+
+
 
 ## LICENSE
 MIT
