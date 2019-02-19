@@ -49,8 +49,7 @@ https://github.com/woollay/vue-toggle-switch
 
 | Name   | Description              |
 | ---    | ---                      |
-| changeSwitch | Triggered on toggle, user selects switch option, returns current value. used in component,like:<br/>@changeSwitch="change",<br/>the callback function as following:<br/>
-```javascript 
+| changeSwitch | Triggered on toggle, user selects switch option, returns current value. used in component,like:<br/>@changeSwitch="change",<br/>the callback function as following:```javascript 
 function change(result) {
 	console.log("option changed:" + result.id + "," + result.checked);
 } 
