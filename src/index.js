@@ -1,18 +1,10 @@
-import ToggleSwitchComp from './components/ToggleSwitch.vue'
+import Vue from 'vue'
+import ToggleSwitch from './components/ToggleSwitch.vue'
 
-function install(Vue) {
-    if (install.installed) return
-    install.installed = true
-    Vue.component('toggle-switch', ToggleSwitchComp)
+const plugin = {
+    install(Vue, options) {
+        Vue.component('ToggleSwitch', ToggleSwitch)
+    }
 }
 
-const ToggleSwitch = {
-    install: install,
-    ToggleSwitchComp
-};
-
-if (typeof window !== undefined && window.Vue) {
-    window.Vue.use(ToggleSwitch);
-}
-
-export default ToggleSwitch
+export default plugin
