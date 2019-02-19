@@ -33,7 +33,7 @@ Use: (in your local .vue file/component, html section)
 ```
 ## Webpack project by vue-cli
 
-https://github.com/wangdahoo/vue-scroller-demo
+https://github.com/woollay/vue-toggle-switch
 
 
 ### Properties
