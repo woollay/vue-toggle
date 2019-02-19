@@ -1,4 +1,4 @@
-# vue-multi-toggle-switch ![version](https://img.shields.io/badge/version-%20v1.0.8%20-green.svg) ![vue](https://img.shields.io/badge/vue-%20v2.1%20-green.svg) 
+# vue-multi-toggle-switch ![version](https://img.shields.io/badge/version-%20v1.0.9%20-green.svg) ![vue](https://img.shields.io/badge/vue-%20v2.1%20-green.svg) 
 Toggle switch for vue.js <br>
 
 <img src="https://img.shields.io/badge/license-MIT-green.svg" /> <img src="https://img.shields.io/badge/dependencies-0-brightgreen.svg" /> <img src="https://img.shields.io/badge/bugs-0-red.svg" />

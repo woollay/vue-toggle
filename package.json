@@ -10,7 +10,7 @@
     },
     "dependencies": {
         "install": "^0.12.2",
-        "vue-multi-toggle-switch": "^1.0.8"
+        "vue-multi-toggle-switch": "^1.0.9"
     },
     "browserslist": [
         "> 1%",
